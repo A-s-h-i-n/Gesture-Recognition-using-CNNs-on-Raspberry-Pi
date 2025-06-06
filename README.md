@@ -21,7 +21,7 @@ thumps up was detected and Red in other cases.
 • Libraries: TensorFlow, Keras, Picamera2, Numpy, PIL, Sense-HAT \
 • Hardware: Raspberry Pi 4, Raspberry Pi Camera, Sensor HAT, Main PC, WiFi-
 Router \
-• Software: Google Colab \
+• Software: Google Colab
 
 ## Implementation
 1. Implement the code in capture.py in the RaspberryPi to get the sample refrence images for training the model using the Pi Camera
@@ -31,4 +31,16 @@ Router \
 5. Run the code with the predict.py script in the RaspberryPi with "sense hat" to see the result
 6. The Sense Hat LED will trun Green if thumps up is detected else red
 
-###### NOTE: Accuracy of that data does affect the outcome make sure to get good quality sampple data
+###### NOTE: Accuracy of the sample data does affect the outcome make sure to get good quality sampple data
+###### NOTE: Python3,PiCam2 and other needed libraries should be pre-installed for this to work
+#### Some Good to know commands:
+1.ssh into pi \
+  ssh username@hostname.local \
+2.copy files \
+  scp source destination         <-give the path of the source and destination \
+3.to make a venv \
+  python3 -m venv venv \
+4.to active a venv \
+  source venv/bin/activate \
+5.to install python packages \
+  pip install some-package 
