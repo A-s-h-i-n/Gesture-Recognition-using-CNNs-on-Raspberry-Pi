@@ -1,5 +1,11 @@
 # Gesture-Recognition-using-CNNs-on-Raspberry-Pi
 ### Building a real-time gesture recognition system using Convolutional Neural Networks (CNNs) deployed on a Raspberry Pi. 
+<p float=left>
+<img src="IMG_3213.JPG" width="300px"/>
+  &nbsp &nbsp &nbsp &nbsp
+<img src="IMG_3214.JPG" width="300px"/>
+</p>
+
 ##  Introduction
 This lab focused on building a real-time gesture recognition system using Convolutional
 Neural Networks (CNNs) deployed on a Raspberry Pi. The objective was to classify simple
@@ -16,6 +22,7 @@ was used. The trained model was converted to TensorFlow Lite format and deployed
 the Raspberry Pi. The Raspberry Pi then processed live camera input and used the model
 to trigger LED lights based on gesture classification.The LED would light up Green if a
 thumps up was detected and Red in other cases.
+
 ## Software and Hardware Used
 • Programming Language: Python \
 • Libraries: TensorFlow, Keras, Picamera2, Numpy, PIL, Sense-HAT \
@@ -33,7 +40,8 @@ Router \
 
 ###### NOTE: Accuracy of the sample data does affect the outcome make sure to get good quality sampple data
 ###### NOTE: Python3,PiCam2 and other needed libraries should be pre-installed for this to work
-#### Some Good to know commands:
+
+## Some Good to know commands:
 1.ssh into pi \
   ssh username@hostname.local \
 2.copy files \
